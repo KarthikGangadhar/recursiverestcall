@@ -2,13 +2,14 @@
   "name": "playerstats",
   "version": "1.0.0",
   "description": "this api is to call a rest endpoint and write data into a json file",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kgangadhar",
   "license": "ISC",
   "dependencies": {
+    "ape-cricket": "^1.1.3",
     "bluebird": "^3.4.7",
     "node-rest-client": "^2.0.1"
   }
